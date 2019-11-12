@@ -27,7 +27,7 @@ def map_to_square(source_array)
   result
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point = 1)
   total = 0
   for i in source_array
     total = total + i*starting_point
