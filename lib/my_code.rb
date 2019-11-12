@@ -46,9 +46,9 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  if source_array.include?(false)
-    return false
-  else
+  if source_array.include?(true)
     return true
+  else
+    return false
   end
 end
