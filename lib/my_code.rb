@@ -38,5 +38,9 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-  pp source_array
+  if false in source_array
+    return false
+  else
+    return true
+  end
 end
