@@ -32,6 +32,7 @@ def reduce_to_total(source_array, starting_point)
   for i in source_array
     total = total + i*starting_point
   end
+  pp starting_point
+  pp source_array
   total
-
 end
