@@ -18,3 +18,11 @@ def map_to_double(source_array)
   end
   result
 end
+
+def map_to_square(source_array)
+  result = []
+  for i in source_array
+    result.push(i**i)
+  end
+  result
+end
